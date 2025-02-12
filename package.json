@@ -12,6 +12,7 @@
   "dependencies": {
     "@types/node": "^18.0.6",
     "axios": "^1.6.8", 
+    "canvas": "^2.11.2", 
     "cors": "^2.8.5",
     "cheerio": "^1.0.0-rc.12",
     "express": "^4.19.2",
