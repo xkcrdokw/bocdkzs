@@ -40,6 +40,10 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname,  'index.html'));
 });
 
+app.get('/chatbot', (req, res) => {
+  res.sendFile(path.join(__dirname,  'chatbot.html'));
+});
+
 
 //endpoin ai feature
 
